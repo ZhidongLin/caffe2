@@ -22,7 +22,7 @@ except ImportError:
     URLError = urllib.URLError
 
 # urllib requires more work to deal with a redirect, so not using vanity url
-DOWNLOAD_BASE_URL = "https://s3.amazonaws.com/download.caffe2.ai/models/"
+DOWNLOAD_BASE_URL = "https://github.com/ZhidongLin/models.git"
 DOWNLOAD_COLUMNS = 70
 
 
